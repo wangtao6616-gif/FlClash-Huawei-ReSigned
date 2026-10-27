@@ -1,0 +1,122 @@
+{
+  "upstream_version": "0.9.2",
+  "upstream_url": "https://github.com/chen08209/FlClash/releases/download/v0.9.2/FlClash-0.9.2-android-arm64-v8a.apk",
+  "package": "com.xigua.netapp",
+  "source_sha256": "ff6a953c0f5c12e6bdc97b49428b565b64c4a62d85e50081823ba297407529b1",
+  "output_sha256": "563f64bde0aa6c80a80837192ccab8b14da8af9e4acceae0ae0f6a33cd1566b7",
+  "output_size_bytes": 61113974,
+  "certificate_sha256": "c7b3a2be9fdd258e6b1253340cc28d31b741938e8072b7799861a54546152a47",
+  "same_signing_certificate_as_0_9_1": true,
+  "modified_entries": [
+    "AndroidManifest.xml",
+    "resources.arsc"
+  ],
+  "dex_native_libraries_and_assets_byte_identical": true,
+  "signature_schemes_verified": [
+    "v2",
+    "v3"
+  ],
+  "zipalign_verified": true,
+  "zip_crc_verified": true,
+  "device_runtime_tested": false,
+  "version_code": 2026104401,
+  "previous_version_code": 2026103702,
+  "min_sdk": 24,
+  "target_sdk": 37,
+  "manifest_attributes_changed": 15,
+  "manifest_changes": [
+    {
+      "tag": "manifest",
+      "attribute": "package",
+      "old": "com.follow.clash",
+      "new": "com.xigua.netapp"
+    },
+    {
+      "tag": "permission",
+      "attribute": "{http://schemas.android.com/apk/res/android}name",
+      "old": "com.follow.clash.permission.RECEIVE_BROADCASTS",
+      "new": "com.xigua.netapp.permission.RECEIVE_BROADCASTS"
+    },
+    {
+      "tag": "uses-permission",
+      "attribute": "{http://schemas.android.com/apk/res/android}name",
+      "old": "com.follow.clash.permission.RECEIVE_BROADCASTS",
+      "new": "com.xigua.netapp.permission.RECEIVE_BROADCASTS"
+    },
+    {
+      "tag": "permission",
+      "attribute": "{http://schemas.android.com/apk/res/android}name",
+      "old": "com.follow.clash.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+      "new": "com.xigua.netapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    },
+    {
+      "tag": "uses-permission",
+      "attribute": "{http://schemas.android.com/apk/res/android}name",
+      "old": "com.follow.clash.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+      "new": "com.xigua.netapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    },
+    {
+      "tag": "action",
+      "attribute": "{http://schemas.android.com/apk/res/android}name",
+      "old": "com.follow.clash.action.START",
+      "new": "com.xigua.netapp.action.START"
+    },
+    {
+      "tag": "action",
+      "attribute": "{http://schemas.android.com/apk/res/android}name",
+      "old": "com.follow.clash.action.STOP",
+      "new": "com.xigua.netapp.action.STOP"
+    },
+    {
+      "tag": "action",
+      "attribute": "{http://schemas.android.com/apk/res/android}name",
+      "old": "com.follow.clash.action.TOGGLE",
+      "new": "com.xigua.netapp.action.TOGGLE"
+    },
+    {
+      "tag": "receiver",
+      "attribute": "{http://schemas.android.com/apk/res/android}permission",
+      "old": "com.follow.clash.permission.RECEIVE_BROADCASTS",
+      "new": "com.xigua.netapp.permission.RECEIVE_BROADCASTS"
+    },
+    {
+      "tag": "action",
+      "attribute": "{http://schemas.android.com/apk/res/android}name",
+      "old": "com.follow.clash.intent.action.VPN_START_REQUESTED",
+      "new": "com.xigua.netapp.intent.action.VPN_START_REQUESTED"
+    },
+    {
+      "tag": "action",
+      "attribute": "{http://schemas.android.com/apk/res/android}name",
+      "old": "com.follow.clash.intent.action.VPN_REVOKED",
+      "new": "com.xigua.netapp.intent.action.VPN_REVOKED"
+    },
+    {
+      "tag": "provider",
+      "attribute": "{http://schemas.android.com/apk/res/android}authorities",
+      "old": "com.follow.clash.files",
+      "new": "com.xigua.netapp.files"
+    },
+    {
+      "tag": "provider",
+      "attribute": "{http://schemas.android.com/apk/res/android}authorities",
+      "old": "com.follow.clash.flutter.image_provider",
+      "new": "com.xigua.netapp.flutter.image_provider"
+    },
+    {
+      "tag": "provider",
+      "attribute": "{http://schemas.android.com/apk/res/android}authorities",
+      "old": "com.follow.clash.mlkitinitprovider",
+      "new": "com.xigua.netapp.mlkitinitprovider"
+    },
+    {
+      "tag": "provider",
+      "attribute": "{http://schemas.android.com/apk/res/android}authorities",
+      "old": "com.follow.clash.androidx-startup",
+      "new": "com.xigua.netapp.androidx-startup"
+    }
+  ],
+  "package_identity_verified": true,
+  "resource_package_verified": true,
+  "static_update_requirements_verified": true
+}
